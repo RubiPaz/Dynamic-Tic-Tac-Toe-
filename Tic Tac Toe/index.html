@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    <html>
+
+
+    <head>
+    <title>Game</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="index.css"/>
+    <style>
+
+    body{
+    background-image: url('TicTac.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+
+    }
+
+    </style>
+    </head>
+
+    <body>
+    <p id="p1">Choose Board Size & Press Start:</p>
+    <div id="BoardCells">
+
+    Rows number
+    <select id="selRowNum">
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    </select>
+    
+  
+
+    Columns number
+    <select id="selColNum">
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    </select>
+
+    <input  type="button"  id="start" onclick="buildBoard()"  value="Start">
+    <input  type="button"  id="restart" onclick="restart()"  value="restart" disabled>
+    </div>
+        
+    <div id="Top">
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <span id="greeting"></span>
+    <span id="showTurn"></span>
+
+    <fieldset id="left_side">
+  
+    <p id="Player1">Player One</p>
+    <img src="CR7.JPG" height="120px" width="120px"  class="Photo"> <br>
+    <span id="nameX"></span><br>
+    <span id="TimeP1"> 00:00:00</span> <br><br>
+    <span id="Name1">Player 1 Name:</span>
+    <input id="UsernameP1" type="text" placeholder="player One name" value=""/><br> <br>
+    <span id="Color1">Color</span>
+    <input id="colorP1" type="color" value="#0011FF"/>
+    </fieldset>
+
+         
+
+    <fieldset id="right_side">      
+    <p id="Player2">Player Two</p>
+    <img src="Messi.JPG" height="120px" width="120px"> <br>
+    <span id="nameO"></span><br>
+    <span id="TimeP2"> 00:00:00</span> <br><br>
+    <span id="Name2">Player 2 Name:</span>
+    <input id="UsernameP2" type="text" placeholder="player Two name" value=""/><br> <br>
+    <span id="Color2">Color</span>
+    <input id="colorP2" type="color" value="#00FF6E"/>
+    </fieldset>
+
+    <div id="board">
+
+    </div>             
+    </div>
+    </div>     
+
+    <div id="Bottom">     
+    </div>
+
+    </body>
+
+    <script src="index.js">
+    </script>
+
+    </html>

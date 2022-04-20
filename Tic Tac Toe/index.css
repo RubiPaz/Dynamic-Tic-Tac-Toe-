@@ -1,0 +1,138 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+td{
+	border: 3px solid rgb(0, 0, 0);
+	width:50px;
+	height:50px;
+    text-align: center;
+    background-color: rgba(240, 233, 233, 0.514);
+    font-size: 2rem;
+    border-radius:10px;
+}
+
+
+
+#p1{
+    width: 90%;
+    float: left;
+    display: inline;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgba(250, 252, 252, 0.472);
+    font-size: 45px;   
+    margin-left: 4.85%;
+    border-radius: 20px;
+  
+}
+
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+#BoardCells{
+    width: 90%;
+    float: left;
+    display: inline;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.472);
+    font-size: 22px;
+    margin-top: 1%;
+    margin-left: 5%;
+    border-radius: 20px;
+
+   
+}
+
+
+#board{
+    position: relative;
+    text-align: center;
+    align-items: center;
+
+    
+    width: 100%;
+
+    margin-bottom: 1%;
+     vertical-align: middle; 
+    bottom:420px;
+    
+}
+
+
+
+
+#Clock{
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#left_side{
+    font-size: 20px;
+    display: inline-block;
+    padding: 1.3%;
+    margin: 2%;
+    width: 170px;
+    height: 350px;
+    text-align: center;
+    background: #0011FF85;
+    border-radius: 20px;
+    border: 3px solid rgb(7, 7, 7);
+
+}
+
+#right_side{
+    font-size: 20px;
+    border-radius: 20px;
+    display: block;
+    padding: 1.3%;
+    margin: 2%;
+    width: 170px;
+    height: 350px;
+    text-align: center;
+    float: right;
+    background: #00FF6E85;
+    border: 3px solid rgb(7, 7, 7);
+}
+
+#greeting{
+    position:relative; 
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    line-height: 8vh;
+    font-size: 25px; 
+    
+}
+
+#showTurn{
+    position:ab;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    font-size: 25px;
+    line-height: 2vh;
+    margin-bottom: 2%;
+    font-weight: bold;
+   
+}
+#test{
+    position: center;
+
+}
+#nameO{
+    margin-top: center;
+    margin-left: center;
+    margin-right: center;
+    margin-bottom: center;
+}
